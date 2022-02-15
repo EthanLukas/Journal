@@ -1,18 +1,3 @@
-# Profile.py
-#
-# ICS 32 Winter 2022
-# Assignment #2: Journal
-#
-# Author: Mark S. Baldwin
-#
-# v0.1.8
-
-# You should review this code to identify what features you need to support
-# in your program for assignment 2.
-#
-# YOU DO NOT NEED TO READ OR UNDERSTAND THE JSON SERIALIZATION ASPECTS OF THIS CODE RIGHT NOW, 
-# though can you certainly take a look at it if you are curious.
-#
 import json, time, os
 from pathlib import Path
 
@@ -80,18 +65,6 @@ class Post(dict):
     
     
 class Profile:
-    """
-    The Profile class exposes the properties required to join an ICS 32 DSU server. You will need to 
-    use this class to manage the information provided by each new user created within your program for a2. 
-    Pay close attention to the properties and functions in this class as you will need to make use of 
-    each of them in your program.
-
-    When creating your program you will need to collect user input for the properties exposed by this class. 
-    A Profile class should ensure that a username and password are set, but contains no conventions to do so. 
-    You should make sure that your code verifies that required properties are set.
-
-    """
-
     def __init__(self, dsuserver=None, username=None, password=None):
         self.dsuserver = dsuserver # REQUIRED
         self.username = username # REQUIRED
