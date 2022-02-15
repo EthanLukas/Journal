@@ -1,13 +1,3 @@
-# ui.py
-
-# Starter code for assignment 2 in ICS 32 Programming with Software Libraries in Python
-
-# Replace the following placeholders with your information.
-
-# Ethan Lukas
-# elukas@uci.edi
-# 19405892
-
 from distutils import command
 from tkinter import W
 from Profile import Profile
